@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_person_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inclassassignment05_katieb.PersonInfo">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/zip_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zip Code" />
+
+    <CheckBox
+        android:id="@+id/plastic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brought own Coffee Mug/Bag" />
+
+    <CheckBox
+        android:id="@+id/veg_stuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ate Vegetarian/Vegan" />
+
+    <CheckBox
+        android:id="@+id/transport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rode Bike or Took Public Transportation" />
+
+    <Button
+        android:id="@+id/carbon_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="calculateIt"
+        android:text="How's my Carbon Footprint today?" />
+</LinearLayout>
